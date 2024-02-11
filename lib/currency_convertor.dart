@@ -36,7 +36,7 @@ class _CurrencyConvertorMaterialAppState
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-            'In INR - $result',
+            'In INR - ${result.toStringAsFixed(2)}',
             style: const TextStyle(
               fontSize: 40,
               color: Colors.white,
